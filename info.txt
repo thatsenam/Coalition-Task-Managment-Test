@@ -1,0 +1,5 @@
+php artisan resource-file:create Project --fields=id,name,description
+php artisan create:resources Project --with-migration
+
+php artisan resource-file:create Task --fields=id,name,description,is_completed,priority
+php artisan create:resources Task --with-migration

@@ -1,0 +1,2 @@
+        @if('[% required_field %]'===' required="true"') <span class="text-danger font-bolder">*</span> @endif
+        <input class="form-control[% css_class %]  {{ $errors->has('[% field_name %]') ? 'is-invalid' : '' }}" name="[% field_name %]" type="[% field_type %]" id="[% field_name %]" value="[% field_value %]"[% min_length %][% max_length %][% min_value %][% max_value %] data="[% required_field %]" [% placeholder %][% step %]>

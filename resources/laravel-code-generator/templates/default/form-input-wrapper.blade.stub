@@ -1,0 +1,8 @@
+
+<div class="form-group">
+    <div class="col-md-10">
+    [% field_label %]
+    [% field_input %]
+    [% field_validation_helper %]
+    </div>
+</div>
