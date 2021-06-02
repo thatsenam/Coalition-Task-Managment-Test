@@ -13,7 +13,6 @@
         "laravel/tinker": "^2.5"
     },
     "require-dev": {
-        "crestapps/laravel-code-generator": "^2.4",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
